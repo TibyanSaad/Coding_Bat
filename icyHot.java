@@ -1,0 +1,12 @@
+public class icyHot {
+    public boolean icyHot(int temp1, int temp2) {
+        if ((temp1<0 && temp2>100)||(temp1>100 && temp2<0)){
+            return true;
+        }
+        return false;
+    }
+    public static void main(String[] args){
+        icyHot ih = new icyHot();
+        System.out.println(ih.icyHot(15,72));
+    }
+}
