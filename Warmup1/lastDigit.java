@@ -1,3 +1,5 @@
+package Warmup1;
+
 public class lastDigit {
     public boolean lastDigit(int a, int b) {
         if ( a%10 == b%10){

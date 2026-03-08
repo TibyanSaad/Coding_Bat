@@ -1,3 +1,5 @@
+package Warmup1;
+
 public class stringE {
     public boolean stringE(String str) {
         int count = 0;

@@ -1,3 +1,5 @@
+package Warmup1;
+
 public class startOz {
     public String startOz(String str) {
         String result = "";

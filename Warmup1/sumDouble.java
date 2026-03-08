@@ -1,3 +1,5 @@
+package Warmup1;
+
 public class sumDouble {
     public int sumDouble(int a, int b) {
         int sum= a+b;

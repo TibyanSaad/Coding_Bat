@@ -1,3 +1,5 @@
+package Warmup1;
+
 public class endUp {
     public String endUp(String str) {
         if (str.length()>3){

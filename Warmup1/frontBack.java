@@ -1,3 +1,5 @@
+package Warmup1;
+
 public class frontBack {
     public String frontBack(String str) {
         if (str.length()<=1)

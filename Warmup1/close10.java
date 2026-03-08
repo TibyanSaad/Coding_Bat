@@ -1,3 +1,5 @@
+package Warmup1;
+
 public class close10 {
     public int close10(int a, int b) {
         int diffa = Math.abs(10-a);

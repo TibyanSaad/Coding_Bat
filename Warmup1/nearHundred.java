@@ -1,3 +1,5 @@
+package Warmup1;
+
 public class nearHundred {
     public boolean nearHundred(int n) {
         int diff100 = 100-n;
