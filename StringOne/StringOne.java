@@ -35,4 +35,9 @@ public class StringOne {
         return str.substring(0, half);
 
     }
+
+    public String withoutEnd(String str) {
+        return str.substring(1, str.length() - 1);
+    }
+
 }
