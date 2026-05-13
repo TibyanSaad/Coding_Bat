@@ -196,5 +196,14 @@ public class StringOne {
         return "";
     }
 
-
+    public boolean frontAgain(String str) {
+        if (str.length() == 2) {
+            return true;
+        } else if (str.length() >= 3) {
+            if (str.charAt(0) == str.charAt(str.length() - 2) && str.charAt(1) == str.charAt(str.length() - 1)) {
+                return true;
+            }
+        }
+        return false;
+    }
 }
