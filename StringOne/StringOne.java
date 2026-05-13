@@ -248,4 +248,16 @@ public class StringOne {
         }
         return result;
     }
+
+    public String startWord(String str, String word) {
+        int wordLen = word.length();
+        if (str.length() >= wordLen) {
+            String strPart = str.substring(1, wordLen);
+            String wordPart = word.substring(1);
+            if (strPart.equals(wordPart)) {
+                return str.substring(0, wordLen);
+            }
+        }
+        return "";
+    }
 }
