@@ -24,4 +24,15 @@ public class MapTwo {
         }return map;
     }
 
+    public Map<String, Integer> wordCount(String[] strings) {
+        Map<String, Integer> map = new HashMap<String, Integer>();
+        for (String key: strings){
+            if (map.containsKey(key)) {
+                map.put(key,map.get(key)+1);
+            } else {
+                map.put(key,1);
+            }
+        }
+        return map;
+    }
 }
