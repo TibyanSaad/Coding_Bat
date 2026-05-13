@@ -48,4 +48,19 @@ public class MapTwo {
         }return map;
 
     }
+
+    public String wordAppend(String[] strings) {
+        Map<String, Integer> countMap = new HashMap<>();
+        StringBuilder result = new StringBuilder();
+        for (String key : strings) {
+            int count = countMap.getOrDefault(key, 0) + 1;
+            countMap.put(key, count);
+            if (count % 2 == 0) {
+                result.append(key);
+            }
+        }
+        return result.toString();
+    }
+
+
 }
